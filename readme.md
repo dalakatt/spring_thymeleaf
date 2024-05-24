@@ -1,7 +1,7 @@
 - name: Upload coverage reports to Codecov
     uses: codecov/codecov-action@v4.0.1
     with:
-      token: ${{ secrets.CODECOV_TOKEN }}
+      token: ${{ secrets.CODECOV_TOKEN }}# spring_thymeleaf
 
 ```shell
 spring init --dependencies=web,thymeleaf,devtools --package-name de.synyx.cl.learning.spring.thymeleaf Service
